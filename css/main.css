@@ -1,0 +1,250 @@
+/* Navigation */
+.navbar-inner {
+  background-color: black;
+}
+
+.navbar-nav {
+  margin-left:auto;
+  margin-right:auto;
+  z-index: 9;
+}
+
+.nav-item {
+  background-color: transparent;
+  padding: 0px 20px 0px 20px;
+  font-size: 12px;
+}
+
+.active{
+  border-bottom: 2px solid 0.2;
+}
+
+.nav-link{
+  color: black;
+}
+
+/* Hover effect */
+.nav-item:hover{
+  opacity: 0.2;
+  font-size: 12px;
+  transition: 0.8s;
+}
+/* End of Navigation */
+
+
+/* Carousel */
+.carousel-item {
+  height: 800px;
+}
+
+.carousel-image-1 {
+  background-image: url("../images/handsdiversity.jpg");
+  background-size: contain;
+}
+
+.carousel-image-2 {
+  background-image: url("../images/fentybeauty.jpg");
+  background-size: contain;
+}
+
+.carousel-image-3 {
+  background-image: url("../images/tsunaina.jpg");
+  background-size: contain;
+}
+
+.carousel-caption {
+  padding-bottom: 250px;
+}
+
+h1 {
+  animation-delay: 1s;
+  font-style: bold;
+  text-align: center;
+}
+
+p {
+  animation-delay: 1s;
+  font-style: bold;
+}
+/* End of Carousel */
+
+
+/*------------------ About Page ------------------*/
+.display-4 {
+  font-style: bold;
+}
+
+.jumbotron-about-bod {
+  background-image: url("../images/leavesbg.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right 10px top;
+  width: 100%;
+  height: 800px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 > .display-4 {
+  text-align: center;
+}
+
+.lead {
+  font-size: 35px;
+  text-align: center;
+}
+
+.about-debunk {
+  font-size: 15px;
+  font-style: bold;
+}
+
+.about-transbox {
+  margin: 0px 0px 80px 0px;
+  border-radius:10px;
+  opacity: 0.79;
+  filter: alpha (opacity=50);
+  padding: 15px 32px;
+  background-color: #FAE3DE;
+
+}
+
+/*------------------ End of About page ------------------*/
+
+/*------------------ Contact Page ------------------*/
+#container-contact {
+  width: 100%;
+  background-image: url("../images/leavesbg.jpg");
+  background-position: right 10px top;
+  background-repeat: no-repeat;
+}
+
+form {
+  margin: 50px 50px 0px 0px;
+}
+
+#submit-btn .btn {
+  background-color: #FAE3DE;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#submit-btn .btn:hover {
+  opacity: 0.2;
+  transition: 0.8s;
+}
+
+/*------------------ End of Contact Page ------------------*/
+
+/*------------------ Footer ------------------*/
+ul.socials {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#footer-section ul.socials >li > a > i {
+  text-align: center;
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+#footer-section #footer-copyright * {
+  color: #111;
+}
+#footer-section > .container {
+  border: 2px solid #111;
+  text-align: center;
+  padding: 10px 10px 50px;
+}
+#footer-section .footer-socials-section {
+  text-align: center;
+  margin: 5px 0px 0px 0px;
+}
+#footer-section .footer-socials-section ul.socials {
+  text-align: center;
+  margin-bottom: 21px;
+  display: inline-block;
+  vertical-align: top;
+}
+#footer-section .footer-socials-section ul.socials > li {
+  display: inline-block;
+  text-align: center;
+}
+#footer-section .footer-socials-section ul.socials > li > a {
+  font-size: 16px;
+  border: 2px solid black;
+  line-height: 2.2em;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 90px;
+}
+/* Colour of icons when you hover*/
+#footer-section .footer-socials-section ul.socials > li > a:hover {
+  opacity: 0.3;
+}
+#footer-section #footer-logo {
+  margin-bottom: 22px;
+}
+#footer-section #footer-copyright {
+  font-style: italic;
+}
+/* Colour of J2020V link */
+.footer-logo-copyright p > i > a:hover {
+  opacity: 0.3;
+}
+#footer-section #footer-copyright p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.container-footer {
+  border: 1px solid #111;
+  margin: contain;
+}
+.go-to-top-parent {
+  text-align: center;
+  margin-top: 28px;
+  color: white;
+}
+.go-to-top-parent > a {
+  color: white;
+  position: relative;
+  width: 60px;
+  height: 30px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+}
+.go-to-top-parent > a:after {
+  content: " ";
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 13px;
+  left: 0;
+  -webkit-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform:rotate(45deg);
+  transform: rotate(45deg);
+}
+.go-to-top-parent > a:hover:after {
+  opacity: 0.68;
+}
+.go-to-top-parent > a i {
+  color: white;
+  position: relative;
+  z-index: 1;
+  top: 7px;
+}
+/*--------------- End of Footer --------------*/
